@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: todo-backend
-        image: todo-backend:latest
+        image: alejoandrade89/todo-backend:latest
         imagePullPolicy: Never
         ports:
         - containerPort: 3001
